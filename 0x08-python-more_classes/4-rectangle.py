@@ -68,13 +68,11 @@ class Rectangle:
                 rect.append("\n")
 
     def __repr__(self):
-        """returns a printable representation of the rectangle that can be modified using eval"""
+        """returns a printable representation of the rectangle"""
 
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
-
-
 
 
 
