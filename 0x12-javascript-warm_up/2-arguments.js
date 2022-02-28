@@ -1,13 +1,3 @@
 #!/usr/bin/node
-/* Importing the process module */
-const process = require('process');
-
-if (argv = null) {
-console.log(process.argv);
-}
-else if(argv = 1){
-    console.log(process.argv);
-}
-else {
-console.log(process.argv);
-}
+const count = process.argv.length;
+console.log(count === 2 ? 'No argument' : count === 3 ? 'Argument found' : 'Arguments found');
