@@ -1,0 +1,1 @@
+School projects on javascript warm up
